@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&family=Quicksand&family=Ubuntu:wght@400;700&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    
+}
+/*-########### HEADER ##############*/
+header#cabecalho{
+    
+    width: 100%;
+    background-color:#e5dcd1;
+    display: inline-flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0; 
+    padding-bottom: 70px;
+
+    
+    
+
+    
+}
+/* --logo da trybe-- */
+.texto-trybe{
+     font-family: 'Ubuntu', sans-serif;
+     width: 700;
+     font-size: 18px;
+     color:#8db181;
+     padding: 10px;
+     
+     
+     
+     
+    
+
+}
+/* --TITULO-- */
+.titulo-menu{
+    
+    color:#3c4144 ;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    margin:auto;
+    display: block;
+    padding-left: 220px ;
+    margin-top: 70px;
+    
+    
+}
+
+/*--menu de navegação--*/
+
+.navbar li a {
+
+    text-decoration: none;
+    color: #6d9c5d;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+
+   
+    
+}
+
+
+.navbar li{
+    list-style: none; 
+    display: inline-block;
+    padding: 15px;
+    margin: 2px;
+}
+
+.navbar li:hover{
+    background-color: rgba(74, 78, 81, 0.2);
+    padding: 15px;
+    margin: 2px;
+
+}
+
+/* ------body------ */
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+
+
