@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&family=Quicksand&family=Raleway:wght@200;300&family=Roboto+Slab:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 *{
 
     margin: 0;
@@ -118,7 +118,7 @@ body{
     top: -400px;
     left: 100px;
     font-family: 'Ubuntu', sans-serif;
-    ;
+    
 }
 
 span{
@@ -129,3 +129,87 @@ span{
 
 /* ---------------- artigo ------------ */
 
+article {
+    
+    border: 2px solid #154038;
+    border-radius: 10px;
+    box-shadow: 1px 5px 50px #42558C;
+    margin-top: 160px;
+    margin-left: 100px;
+    
+    
+}
+
+
+
+p#texto1 {
+    
+    font-family: 'Barlow', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    margin: 50px 70px;
+    padding: 30px;
+    
+}
+
+h2#titulo1{
+    
+    font-family: 'Ubuntu', sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    background-color: #154038;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ---------------- depoimento ------------- */
+
+aside {
+   
+    border: 2px solid #154038;
+    border-radius: 10px;
+    box-shadow: 1px 5px 50px #42558C;
+    margin-top: 160px ; 
+    margin-right: 100px;
+    background-color: #226659;
+    
+    
+    
+}
+
+p#texto2{
+
+    
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin: 50px 70PX ;
+    padding: 20px;
+    color: white;
+    
+}
+
+h2#titulo2{
+    
+    font-family: 'Ubuntu', sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    background-color: #154038;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ----------------grid----------- */
+
+.grid {
+    
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    
+    gap: 100px;
+
+}
