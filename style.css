@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&family=Quicksand&family=Raleway:wght@200;300&family=Roboto+Slab:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
-*{
+* {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
     
-    
-  }
-/*-########### HEADER ##############*/
+  } 
 
-header#cabecalho{
+/* -########### HEADER ############## */
+
+header#cabecalho {
     background-color: black;
     width: 100%;
     display: inline-flex;
@@ -20,112 +20,109 @@ header#cabecalho{
     padding: 7px;
     text-align: center;
     z-index: 1;
-}
+  }
 
 /* --logo da trybe-- */
+
 .texto-trybe{
-     font-family: 'Ubuntu', sans-serif;
+     font-family: "Ubuntu", sans-serif;
      width: 700;
      font-size: 18px;
      padding: 10px;
-}
+  }
 
-.texto-trybe a{
+.texto-trybe a {
     text-decoration: none;
     color:#195906;
     font-size: 30px;
     font-weight: 700;
     line-height: 2px;
-}
+  }
+
 /* --TITULO-- */
-.titulo-menu{
+
+.titulo-menu {
     
-    color:#F2F2F2 ;
-    font-family: 'Raleway', sans-serif;
+    color:#f2f2f2;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 300;
     justify-self: center;
     border: 1px solid white;
     
-}
+  }
 
-/*--menu de navegação--*/
+/* --menu de navegação-- */
 
 .navbar li a {
 
     text-decoration: none;
-    color: #F2F2F2;
-    font-family: 'Ubuntu', sans-serif;
+    color: #f2f2f2;
+    font-family: "Ubuntu", sans-serif;
     font-size: 20px;
     padding: 20px;
     text-align: center;
 
    
-}
+  }
 
 
-.navbar li{
+.navbar li {
     list-style: none; 
     display: inline-block;
     padding: 15px;
-}
+  }
 
-.navbar li a:hover{
+.navbar li a:hover { 
 
-    background-color: #629DA6;
+    background-color: #629da6;
     color: black;
     padding: 20px;
    
-}
+  }
 
 /* ------body------ */
 
-body{
+body {
     background-color: rgb(253, 251, 251);
     overflow-x: hidden;
-}
+  }
 
 /* ---------------- imagem e subtitulo ---------- */
-.foto{
+.foto {
     width: 100%;
     background-color: black;
     padding-bottom: 5px;
     
    
    
-}
+  }
 
-#minha_foto{
+#minha_foto {
     position: relative;
     display: block;
     left: 750px;
     top: 70px;
     border-top-right-radius: 30%;
-    
-    
-    
-}
+  }
 
 .texto {
     color: white;
     font-size: 60px;
-   
-    
-}
+  }
 
-.subtitulo{
+.subtitulo {
     position: relative;
     top: -400px;
     left: 100px;
-    font-family: 'Ubuntu', sans-serif;
-    
-}
+    font-family: "Ubuntu", sans-serif;
+  }
 
-span{
+span {
     font-size: 60px;
     color: #065954;
     
-}
+  }
 
 /* ---------------- artigo ------------ */
 
@@ -136,25 +133,24 @@ article {
     box-shadow: 1px 5px 50px #42558C;
     margin-top: 160px;
     margin-left: 100px;
-    
-    
-}
+
+  }
 
 
 
 p#texto1 {
     
-    font-family: 'Barlow', sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 22px;
     text-align: left;
     margin: 50px 70px;
     padding: 30px;
     
-}
+  }  
 
-h2#titulo1{
+h2#titulo1 {
     
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     color: white;
@@ -162,7 +158,7 @@ h2#titulo1{
     font-size: 30px;
     text-align: center;
     padding: 20px;
-}
+  }  
 
 /* ---------------- depoimento ------------- */
 
@@ -171,29 +167,26 @@ aside {
     border: 2px solid #154038;
     border-radius: 10px;
     box-shadow: 1px 5px 50px #42558C;
-    margin-top: 160px ; 
+    margin-top: 160px; 
     margin-right: 100px;
     background-color: #226659;
-    
-    
-    
-}
+  }
 
-p#texto2{
+p#texto2 {
 
     
-    font-family: 'Barlow', sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 20px;
     text-align: left;
-    margin: 50px 70PX ;
+    margin: 50px 70px;
     padding: 20px;
     color: white;
     
-}
+  }
 
-h2#titulo2{
+h2#titulo2 {
     
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     color: white;
@@ -201,15 +194,16 @@ h2#titulo2{
     font-size: 30px;
     text-align: center;
     padding: 20px;
-}
+  }
 
 /* ----------------grid----------- */
 
 .grid {
     
-    display: grid;
-    grid-template-columns: 4fr 2fr;
-    
-    gap: 100px;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  gap: 100px;
+  }
 
-}
+/* ----------- tabela lista ------- */
+
