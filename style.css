@@ -17,9 +17,6 @@ header#cabecalho{
     top: 0; 
     padding: 10px;
     text-align: center;
-    
-    
-
 }
 
 /* --logo da trybe-- */
@@ -27,18 +24,15 @@ header#cabecalho{
      font-family: 'Ubuntu', sans-serif;
      width: 700;
      font-size: 18px;
-     color:#013f3b;
      padding: 10px;
 }
 
 .texto-trybe a{
     text-decoration: none;
-    color:#8db181;
+    color:#195906;
     font-size: 30px;
     font-weight: 700;
-    
-
-    
+    line-height: 2px;
 }
 /* --TITULO-- */
 .titulo-menu{
@@ -49,10 +43,6 @@ header#cabecalho{
     font-weight: 300;
     justify-self: center;
     border: 1px solid white;
-    
-
-    
-    
     
 }
 
@@ -67,10 +57,6 @@ header#cabecalho{
     padding: 20px;
     text-align: center;
     
-
-    
-   
-    
 }
 
 
@@ -78,26 +64,20 @@ header#cabecalho{
     list-style: none; 
     display: inline-block;
     padding: 15px;
-   
-   
 }
 
 .navbar li a:hover{
 
-    background-color: rgba(166, 166, 166, 25);
+    background-color: #629DA6;
     color: black;
     padding: 20px;
    
-    
-
 }
 
 /* ------body------ */
 
 body{
     background-color: rgb(253, 251, 251);
-    
-    
 }
 
 
@@ -109,7 +89,7 @@ body{
 
 #minha_foto{
     position: relative;
-    left: 900px;
+    left: 750px;
     top: 70px;
     border-top-right-radius: 30%;
     
@@ -118,24 +98,19 @@ body{
 .texto {
     color: white;
     font-size: 60px;
-     
     
 }
 
 .subtitulo{
     position: relative;
     top: -400px;
-    left: 200px;
+    left: 100px;
     font-family: 'Ubuntu', sans-serif;
-    
     display: inline-flex;
-    
-      
 }
 
 span{
     font-size: 60px;
     color: #065954;
-    
     
 }
