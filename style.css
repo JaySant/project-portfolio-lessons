@@ -210,24 +210,25 @@ h2#titulo2 {
 
 /* ----------- table------- */
 .background-table{
-    
-    background-color: #3C2659;
+ 
+   
     width: 100%;
-    padding: 50px;
+    padding: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+    margin: 20px;
+    grid-template-rows: 2fr 2fr;
     
 }
 
- li{
+li{
     list-style-type: none;
         }
+
 .table-container{
     
-    border-collapse: collapse;
-    
-    
+    border-collapse: separate;
+    border-spacing: 10;
+    margin: 50px 300px ;
     
 }
 
@@ -238,7 +239,7 @@ thead#titulo-table th{
     font-size: 20px;
     font-family: "Ubuntu", sans-serif;
     color: white;
-    
+    border-radius: 5px;
     
    
 }
@@ -247,9 +248,10 @@ thead#titulo-table th{
     background-color: white;
     padding: 30px;
     text-align: center;
-    border: 1px solid #10594C; 
+    border: 2px solid #10594C; 
     font-family: "Outfit", sans-serif;
     font-size: 20px;
+    border-radius: 5px;
    
 }
 
@@ -257,7 +259,7 @@ thead#titulo-table th{
 footer{
     background-color: black;
     color: white;
-    padding: 30px;
+    padding: 20px;
     font-size: 15px;
     font-family: "Ubuntu", sans-serif;
 }
@@ -267,9 +269,9 @@ footer{
 
 .table-container2{
     
-    border-collapse: collapse;
-    border: 3px solid red;
-    
+    border-collapse: separate;
+    border-spacing: 10;
+    margin: 50px 300px;
     
 }
 
@@ -280,26 +282,56 @@ thead#titulo-table2 th{
     font-size: 20px;
     font-family: "Ubuntu", sans-serif;
     color: white;
+    border-radius: 5px;
     
-    
-   
 }
 
 .body-table2 tr td{
     background-color: white;
     padding: 30px;
     text-align: center;
-    border: 1px solid #10594C; 
+    border: 2px solid #10594C; 
     font-family: "Outfit", sans-serif;
     font-size: 20px;
+    border-radius: 5px;
    
 }
-
+/* ------------------ rodapé -----------  */
 
 footer{
-    background-color: black;
+    background-color: #132833;
     color: white;
-    padding: 30px;
+    padding: 10px;
     font-size: 15px;
     font-family: "Ubuntu", sans-serif;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+}
+
+.git {
+    
+    margin-left: 1350px;
+    }
+
+
+.link {
+    margin-right: 20px;
+}
+
+#copyright{
+    
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+caption{
+    font-size: 20px;
+    background-color:#3C2659;
+    padding: 40px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 5px;
 }
